@@ -1,0 +1,123 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.searchBox{
+    width: 41%;
+    display: inline-block;
+    float:left;
+    padding: 0;
+    margin: 15px 4% 15px 4%;
+    vertical-align: top;
+}
+
+#pos {
+    width: 80%;
+    margin: 15px 10% 15px 10%;
+    padding: 0;
+}
+
+#posBox {
+    width: 90%;
+    margin: 5px 5% 5px 5% ;
+    float:left;
+}
+
+.textSearch {
+    width: 100%;
+    margin:0 0 5px 0;
+    font-size: 14px;
+}
+
+h3 {
+    text-align: center;
+    margin: 5px 0 10px 0;
+    color: navy;
+}
+
+h4 {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    color: navy;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.checkboxWrap{
+    display: inline-block;
+    margin: 0 3% 3px 2%;
+    width: 20%;
+}
+
+#posWrap1{
+    float:left;
+    margin-bottom: 15px;
+}
+
+#posWrap2 {
+    float:right;
+    margin-bottom: 15px;
+}
+#posWrap {
+    margin: 0 1% 3px 2%;
+    width: 25%;
+}
+
+.checkbox {
+    display: inline;
+}
+
+table {
+    margin: 10px 2px 10px 2px;
+    font-size: 11px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    line-height: 200px;
+    min-height: 200px;
+    height: 200px;
+    border: 1px solid lightgray;
+}
+
+tr#header {
+    line-height: 35px;
+    min-height: 35px;
+    height: 35px;
+    background-color: lightgray;
+}
+
+tr#header:hover > th {
+    background-color: rgba(0, 0, 255, .4);
+}
+
+tr:hover > td {
+    background-color: rgba(0, 0, 255, .2);
+}
+
+th, td {
+    line-height: 1.2;
+    padding: 0px 1.5px 0px 1.5px;
+    text-align: center;
+}
